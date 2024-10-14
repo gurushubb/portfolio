@@ -1,74 +1,497 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-        <title>Guru Saran Reddy Busireddy - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - My Portfolio Website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Guru Saran Reddy Busireddy</h1>
-        <p>Software Engineer with 1.5 years of experience in Mobile Application Development</p>
-        <p><a href="mailto:gurusaranreddy07@gmail.com">gurusaranreddy07@gmail.com</a> | +1 (616)-349-4886</p>
-        <p><a href="https://linkedin.com/in/gurusaranreddy" target="_blank">LinkedIn Profile</a></p>
-    </header>
 
-    <section id="work-experience">
-        <h2>Work Experience</h2>
-        <div class="job">
-            <h3>Project Engineer - Wipro Limited</h3>
-            <p><strong>12/2021 - 05/2023</strong></p>
-            <p>Developed mobile applications using Xamarin and MAUI platforms. Worked closely with cross-functional teams to deliver quality applications.</p>
+<body class="index-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#projects"><i class="bi bi-layers-fill"></i><span>Projects</span></a></li>
+        <li><a href="#certifications"><i class="bi bi-award-fill"></i><span>Certifications</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+        <img src="assets/img/pfolio.jpg" alt="Prosthetic Arm Image" style="width: 1900px; height: 1053px; float: right;">
+
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Guru Saran Reddy Busireddy</h2>
+            <p>I'm <span class="typed" data-typed-items="Software Developer, UI/UX Designer, Database Engineer">Software Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="https://www.instagram.com/gurusaranreddy" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.github.com/gurushubb" target="_blank"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/gurusaranreddy"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Federal Express (Australia)</h3>
-            <p><strong>Android Developer</strong></p>
-            <p>Developed Smart Pad, a scanning application used in FedEx operations, using C#, Xamarin Forms, and MVVM architecture.</p>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>I am a master’s student at GVSU, an ex-software engineer with experience in mobile applications, and an eager learner in pursuit of innovation, having previously worked at Wipro.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/profilephoto.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>UI/UX Designer &amp; Software Developer.</h2>
+            <p class="fst-italic py-3">
+                Eager learner, passionate problem solver, and innovator in technology.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>June 28</span></li>                 
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+1 616 349 4886</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Grand Rapids, USA</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>                
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>gurusaranreddy07@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="project">
-            <h3>Write in Air - LPU</h3>
-            <p><strong>Back-end Developer</strong></p>
-            <p>Developed a prototype for hand motion tracking using Python, OpenCV, and NumPy.</p>
-        </div>
-    </section>
+      </div>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p>Bachelor of Technology in Computer Science and Engineering - Lovely Professional University (LPU), India (2017-2021)</p>
-        <p>CGPA: 6.53/10</p>
-    </section>
+    </section><!-- /About Section -->
 
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Microsoft Certified Azure Fundamentals - 03/2022</li>
-            <li>Cisco Certified Programming Essentials in Python - 08/2021</li>
-            <li>AI Foundations - 08/2021</li>
-        </ul>
-    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
 
-    <section id="skills">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
-        <ul>
-            <li><strong>Programming Languages:</strong> C, C#, Python</li>
-            <li><strong>Internet Programming:</strong> HTML, CSS</li>
-            <li><strong>Frameworks:</strong> Xamarin Forms, MVVM</li>
-            <li><strong>Tools:</strong> Visual Studio, Git Lab, Postman, PyCharm</li>
-            <li><strong>Database:</strong> SQL</li>
-        </ul>
-    </section>
+        <p>Bringing ideas to life with the right mix of tech skills, creativity, and a passion for solving problems</p>
+      </div><!-- End Section Title -->
 
-    <section id="interests">
-        <h2>Interests</h2>
-        <ul>
-            <li>Travelling</li>
-            <li>Swimming</li>
-            <li>Cooking</li>
-            <li>Reading Books</li>
-        </ul>
-    </section>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-    </body>
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>XAML</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Python</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>C#</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>SQL</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Java</span> <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Guru Saran Reddy Busireddy</h4>
+              <p><em>Currently, pursuing Master's in CS at GVSU, an ex-software engineer, I specialized in developing mobile applications using Xamarin and MAUI platforms. I contributed to critical projects like the FedEx Courier application, An eager learner and innovator, I am passionate about applying technology to solve everyday challenges, Outside of work, I enjoy traveling, swimming, and keeping up with the latest tech trends.</em></p>
+              <ul>
+                <li>Grand Rapids, Michigan, USA</li>
+                <li>(616) 349-4886</li>
+                <li>gurusaranreddy07@gmail.com</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Applied Computer Science</h4>
+              <h5> 01/2024 - Present</h5>
+              <p><em>Grand Valley State University, Grand Rapids, MI, USA</em></p>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor of technology Computer Science &amp; Engineering</h4>
+              <h5>2017 - 2021</h5>
+              <p><em>Lovely Professional University, Jalandhar, PB, India</em></p>
+            </div><!-- End Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Project Engineer</h4>
+              <h5>12/2021 - 05/2023</h5>
+              <p><em>Wipro Limited, Hyderabad, TS, India </em></p>
+              <ul>
+                <li>I worked on creating an android application.</li>
+                <li>I have successfully contributed to the development and delivery of cutting-edge mobile application. </li>
+                <li>I have played an important role in creating seamless user experiences driving customer satisfaction</li>
+                <li>Conducted regressive testing and debugging of the mobile application.</li>
+                <li>Actively participated in project meetings, presenting reports and updates to stakeholders.</li>
+              </ul>
+            </div><!-- End Resume Item -->
+          </div>
+        </div>
+      </div>
+    </section><!-- /Resume Section -->
+
+  <!-- Projects Section -->
+<section id="projects" class="projects section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Projects</h2>
+    <p>Here are some of the key projects I've worked on, showcasing my expertise in mobile application development, backend systems, and cutting-edge technology solutions.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <!-- Project 1 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item item-teal position-relative">
+          <div class="icon">
+            <i class="bi bi-bar-chart"></i>
+          </div>
+          <a href="https://prajwal148.github.io/OOPS/">
+            <h3>Gym Membership System</h3>
+          </a>
+          <p class="project-date">Date: Ongoing Term Project</p> <!-- Project Date -->
+          <p>A full-stack application for managing gym memberships and class bookings, built with Node.js and PostgreSQL. Integrated with PayPal API for payments.</p>
+          <button class="btn btn-primary" onclick="openModal('modal1')">View More</button>
+        </div>
+      </div><!-- End Project 1 -->
+
+      <!-- Project 2 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item item-cyan position-relative">
+          <div class="icon">
+            <i class="bi bi-code-slash"></i>
+          </div>
+          <a href="">
+            <h3>FedEx SmartPad App</h3>
+          </a>
+          <p class="project-date">Date: 12/2021 - 05/2023</p> <!-- Project Date -->
+          <p>A mission-critical mobile app developed for FedEx using Xamarin and MAUI. The app optimizes scanning efficiency for both on-road and in-station processes.</p>
+          <button class="btn btn-primary" onclick="openModal('modal2')">View More</button>
+        </div>
+      </div><!-- End Project 2 -->
+
+      <!-- Project 3 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item item-orange position-relative">
+          <div class="icon">
+            <i class="bi bi-terminal"></i>
+          </div>
+          <a href="">
+            <h3>Write in Air</h3>
+          </a>
+          <p class="project-date">Date: 01/2021 - 04/2021</p> <!-- Project Date -->
+          <p>A digital image processing project that tracks hand movements for writing in the air, using Python and OpenCV. This project aims to help the deaf and mute people.</p>
+          <button class="btn btn-primary" onclick="openModal('modal3')">View More</button>
+        </div>
+      </div><!-- End Project 3 -->
+
+    </div>
+  </div>
+</section><!-- /Projects Section -->
+
+  <!-- Certifications Section -->
+<section id="certifications" class="certifications section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Certifications</h2>
+      <p>Here are some of the key certifications I've earned to enhance my professional knowledge and skills.</p>
+    </div><!-- End Section Title -->
+  
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="certification-item">
+            <i class="bi bi-patch-check-fill"></i>
+            <h3>Microsoft Certified: Azure Fundamentals</h3>
+            <p>Issued: March 2022</p>
+          </div>
+        </div><!-- End Certification Item -->
+  
+        <div class="col-lg-4 col-md-6">
+          <div class="certification-item">
+            <i class="bi bi-patch-check-fill"></i>
+            <h3>Cisco Certified: Programming Essentials in Python</h3>
+            <p>Issued: August 2021</p>
+          </div>
+        </div><!-- End Certification Item -->
+  
+        <div class="col-lg-4 col-md-6">
+          <div class="certification-item">
+            <i class="bi bi-patch-check-fill"></i>
+            <h3>AI Foundations</h3>
+            <p>Issued: August 2021</p>
+          </div>
+        </div><!-- End Certification Item -->
+  
+      </div><!-- End Row -->
+    </div><!-- End Container -->
+  </section><!-- /Certifications Section -->
+ 
+  <!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Feel free to get in touch for collaboration, freelance opportunities, or to discuss innovative solutions in software development and mobile app projects.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade" data-aos-delay="100">
+    <div class="row gy-4">
+
+      <div class="col-lg-4">
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+          <i class="bi bi-geo-alt flex-shrink-0"></i>
+          <div>
+            <h3>Address</h3>
+            <p>Grand Rapids, MI 49534</p>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-telephone flex-shrink-0"></i>
+          <div>
+            <h3>Call Me</h3>
+            <p>+1 616 349 4886</p>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-envelope flex-shrink-0"></i>
+          <div>
+            <h3>Email Me</h3>
+            <p>gurusaranreddy07@gmail.com</p>
+          </div>
+        </div><!-- End Info Item -->
+
+      </div>
+
+      <div class="col-lg-8">
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+          </div>
+          <br>
+          <div class="form-group">
+            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+          <br>
+          <div class="form-group">
+            <textarea id="message" name="message" class="form-control" placeholder="Enter your message" rows="4" required></textarea>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <!-- Success Message -->
+        <div id="successMessage" style="display: none; color: green; margin-top: 20px;">
+          <strong>Thank you!</strong> I will reach out to you shortly.
+        </div>
+      </div><!-- End Contact Form -->
+    </div>
+  </div>
+</section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Guru Saran Reddy Busireddy</h3>
+      <p>Passionate software engineer with expertise in mobile app development and Designing. Dedicated to solving complex problems through innovation and delivering scalable, user-friendly solutions.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.instagram.com/gurusaranreddy" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/gurusaranreddy"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Modal for Project 1 -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h2>Gym Membership System</h2>
+    <p>
+      This semester, I worked on a group project called <strong>Gym Membership and Class Booking System</strong> as part of my coursework.<br><br>
+      Our goal was to develop a user-friendly web application that makes managing memberships and scheduling sessions at the gym easier.<br>
+      Members of the gym can conveniently register, verify class schedules, schedule sessions ahead of time, and monitor their attendance using our solution.<br>
+      To keep members informed about their bookings and membership status, the system also automatically sends notifications, which enhances user engagement and optimizes operations.<br><br>
+
+      The platform gives gym administrators the administrative resources they need to effectively organize classes, keep track of attendance, and manage member profiles.<br>
+      By adding <strong>PayPal</strong>, it also improves payment processing, making class payments and membership renewals easy.<br>
+      We use <strong>AWS</strong> as our cloud platform to guarantee that the system can scale as needed, and we've integrated <strong>Twilio</strong> to manage real-time notifications for significant developments.<br><br>
+
+      This project helped me dive deep into <strong>full-stack development</strong>.<br>
+      I contributed to both the <strong>frontend (HTML, CSS, JavaScript)</strong> and <strong>backend (Node.js)</strong> development, as well as <strong>database management using PostgreSQL</strong>.<br>
+      One of the most rewarding aspects was successfully integrating <strong>payment and notification systems</strong>, ensuring both security and a smooth user experience.<br><br>
+
+      Through this project, I’ve not only improved my technical skills but also learned the importance of <strong>collaboration and communication in a team</strong>.<br>
+      It’s been an excellent opportunity to see how a real-world application can come together from concept to deployment.
+    </p>
+  </div>
+</div>
+
+<!-- Modal for Project 2 -->
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h2>FedEx SmartPad App</h2>
+    <p>Here is detailed information about the FedEx SmartPad App project...</p>
+  </div>
+</div>
+
+<!-- Modal for Project 3 -->
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal3')">&times;</span>
+    <h2>Write in Air</h2>
+    <p>Here is detailed information about the Write in Air project...</p>
+  </div>
+</div>
+
+</body>
 </html>
